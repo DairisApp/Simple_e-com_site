@@ -1,0 +1,36 @@
+* {
+    font-family: cursive;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-left: 10px solid rgb(246, 246, 246) ;
+    border-right: 10px solid rgb(246, 246, 246) ;
+    opacity: 70%;
+}
+
+li{
+    width: 245px;
+}
+
+/* SASS this bad boy of a button up */
+.custom-btn{
+    font-size: 20px;
+    box-shadow: 3px 4px #000000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:8px ;
+    padding-right:8px ;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.custom-btn:hover {
+    color: #000000;
+    text-decoration: none !important;
+    cursor: pointer;
+    background-color: #d4d4d4;
+}
